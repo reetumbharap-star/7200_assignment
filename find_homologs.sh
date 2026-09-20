@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Usage: find_homologs.sh <query file> <subject file> <output file>
  tblastn \
  -query $1 \
  -subject $2 \
